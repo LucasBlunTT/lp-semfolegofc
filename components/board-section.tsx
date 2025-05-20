@@ -1,39 +1,38 @@
 import type React from 'react';
 import Image, { StaticImageData } from 'next/image';
+import Roberto from '@/public/images/roberto.jpeg';
+import Afonso from '@/public/images/afonso.jpeg';
+import Carlos from '@/public/images/carlos.jpeg';
+import Cristiano from '@/public/images/cristiano.jpg';
+import Durval from '@/public/images/durval.jpeg';
 import Bruno from '@/public/images/bruno.jpg';
 
 interface BoardMember {
   name: string;
-  image: string | StaticImageData;
+  image: StaticImageData;
 }
 
 export default function BoardSection() {
   const boardMembers: BoardMember[] = [
     {
       name: 'Roberto Felipe',
-      image:
-        'https://instagram.ffln2-3.fna.fbcdn.net/v/t51.2885-19/466388904_1130369191793989_5712887965303634885_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.ffln2-3.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2QGTZCyD2C7v2tuhpiGcSvHhBJH4cuSUDiw_LzA1MdUnflkY7bk2QABr9Fb_TNtdIQS-TGI38o_L0Icm1tBfyRTr&_nc_ohc=OXGbcUPRl-cQ7kNvwEmdixH&_nc_gid=rTB9mlE-BAq03uqS-S5ygg&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfKwuQ5Ujde8m11e86pSNLvxapnmWbSK1lP4t4n9bMFLPA&oe=68318E8C&_nc_sid=7a9f4b',
+      image: Roberto,
     },
-
     {
       name: 'Afonso',
-      image:
-        'https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/468449937_559004093400614_8192360794247796762_n.jpg?ccb=11-4&oh=01_Q5Aa1gG5cwU0vfpfznR-lckEjv2XqCfTzDQs3WNZxIyZklrPrw&oe=6838E5C9&_nc_sid=5e03e0&_nc_cat=103',
+      image: Afonso,
     },
     {
       name: 'Carlos Henrique',
-      image:
-        'https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/488917875_2906971559462680_7366707788359378112_n.jpg?ccb=11-4&oh=01_Q5Aa1gGRoKo6wFNiBNvSDbHTk7LueIS0qzfYSqaMf_TtdvdMaw&oe=6838D269&_nc_sid=5e03e0&_nc_cat=104',
+      image: Carlos,
     },
     {
       name: 'Cristiano',
-      image:
-        'https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/491840311_1872668129940338_1700936211142633891_n.jpg?ccb=11-4&oh=01_Q5Aa1gESxFwoQdHnRS9WI5Ag1uM6vKxTP1_rfDpVxWFMkm3d8Q&oe=6838C0D4&_nc_sid=5e03e0&_nc_cat=104',
+      image: Cristiano,
     },
     {
       name: 'Durval',
-      image:
-        'https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/406918656_792015099401126_3659055451669166276_n.jpg?ccb=11-4&oh=01_Q5Aa1gEl2mdrXucWSPlDLt_NgfPVmKc9imOpcqf-OTDo5dBKkg&oe=6838D2FF&_nc_sid=5e03e0&_nc_cat=108',
+      image: Durval,
     },
     {
       name: 'Bruno Fenômeno',
@@ -70,7 +69,7 @@ export default function BoardSection() {
                   alt={member.name}
                   width={100}
                   height={100}
-                  className="rounded-full object-fit w-20 h-20 md:w-32 md:h-32 lg:w-26 lg:h-26 transition-transform transform hover:scale-105"
+                  className="rounded-full object-cover w-20 h-20 md:w-32 md:h-32 lg: transition-transform transform hover:scale-105"
                 />
               </div>
               <h3 className="text-xl font-bold">{member.name}</h3>
