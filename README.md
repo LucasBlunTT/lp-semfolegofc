@@ -1,16 +1,62 @@
-# LP Sem Fôlego FC
+# SEM FÔLEGO F.C.
 
-Bem-vindo ao repositório do **LP Sem Fôlego FC**, o site oficial do clube **Sem Fôlego Futebol Clube**. Este projeto foi desenvolvido para apresentar informações sobre o clube, sua diretoria, eventos e muito mais.
+Bem-vindo ao repositório do **Sem Fôlego F.C.**, o site oficial do clube **Sem Fôlego Futebol Clube**. Este projeto foi desenvolvido para compartilhar a história, os valores, a diretoria, o elenco e os momentos marcantes do time.
+
+---
+
+## 🌟 Sobre o Projeto
+
+O site do **Sem Fôlego F.C.** foi criado para fortalecer a presença digital do clube, permitindo que torcedores e simpatizantes conheçam mais sobre o time, sua história e seus valores. O design é moderno, responsivo e pensado para oferecer uma experiência agradável em qualquer dispositivo.
+
+---
 
 ## 🚀 Tecnologias Utilizadas
 
-Este projeto foi construído utilizando as seguintes tecnologias:
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - **[Next.js](https://nextjs.org/):** Framework React para desenvolvimento web.
-- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS para estilização.
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS para estilização rápida e eficiente.
 - **[TypeScript](https://www.typescriptlang.org/):** Superset do JavaScript para tipagem estática.
 - **[Vercel](https://vercel.com/):** Plataforma de hospedagem para projetos Next.js.
 
-## 📂 Estrutura do Projeto
+---
 
-Abaixo está a estrutura principal do projeto:
+## 🌟 Funcionalidades
+
+- **Página Inicial:** Apresentação do clube com links para as seções principais.
+- **Seção "Sobre":** História, missão e valores do clube.
+- **Seção Diretoria:** Lista dos membros da diretoria com fotos e nomes.
+- **Seção Elenco:** Apresentação dos jogadores do time.
+- **Galeria de Fotos:** Exibição de imagens dos eventos e jogos do clube.
+- **Design Responsivo:** Layout adaptável para dispositivos móveis, tablets e desktops.
+
+---
+
+## 🖼️ Pré-visualização
+
+### Página Inicial
+A página inicial apresenta o logo do clube, uma mensagem de boas-vindas e links para as seções principais do site.
+
+### Sobre o Clube
+![Sobre o Clube](https://via.placeholder.com/800x400?text=Imagem+de+Exemplo)
+
+### Diretoria
+![Seção Diretoria](https://via.placeholder.com/800x400?text=Imagem+de+Exemplo)
+
+### Elenco
+![Seção Elenco](https://via.placeholder.com/800x400?text=Imagem+de+Exemplo)
+
+---
+
+## 🛠️ Como Executar o Projeto
+
+### Pré-requisitos
+Certifique-se de ter o seguinte instalado em sua máquina:
+- **Node.js** (versão 16 ou superior)
+- **npm** ou **yarn**
+
+### Passos para rodar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/lp-semfolegofc.git
