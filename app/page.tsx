@@ -14,7 +14,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Image src="/images/logo.png" alt="Sem Fôlego F.C. Logo" width={50} height={50} className="h-10 w-auto" />
-            <span className="text-xl font-bold">Sem Fôlego F.C.</span>
+            <span className="text-xl font-bold">SEM FÔLEGO F.C</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#sobre" className="text-sm font-medium transition-colors hover:text-primary">
@@ -65,7 +65,7 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <Image src="/images/logo.png" alt="Sem Fôlego F.C. Logo" width={200} height={200} className="mx-auto" />
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Sem Fôlego F.C.</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">SEM FÔLEGO F.C</h1>
                 <p className="mx-auto max-w-[700px] text-black md:text-xl">
                   Paixão, garra e determinação dentro de campo.
                 </p>
