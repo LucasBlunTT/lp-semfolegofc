@@ -1,9 +1,10 @@
 import type React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
+import Bruno from '@/public/images/bruno.jpg';
 
 interface BoardMember {
   name: string;
-  image: string;
+  image: string | StaticImageData;
 }
 
 export default function BoardSection() {
@@ -36,7 +37,7 @@ export default function BoardSection() {
     },
     {
       name: 'Bruno Fenômeno',
-      image: 'https://www.instagram.com/robertofeliipe93/p/DG88T1jhxM1/',
+      image: Bruno,
     },
   ];
 
@@ -63,13 +64,13 @@ export default function BoardSection() {
               key={member.name}
               className="flex flex-col items-center p-6 rounded-lg border bg-card text-card-foreground shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="mb-4 p-1 rounded-full bg-shield/20">
+              <div className="mb-4 p-1 rounded-full bg-shield/20 overflow-hidden">
                 <Image
                   src={member.image}
                   alt={member.name}
                   width={100}
                   height={100}
-                  className="rounded-full"
+                  className="rounded-full object-fit w-20 h-20 md:w-32 md:h-32 lg:w-26 lg:h-26 transition-transform transform hover:scale-105"
                 />
               </div>
               <h3 className="text-xl font-bold">{member.name}</h3>
