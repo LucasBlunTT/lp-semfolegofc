@@ -10,7 +10,7 @@ interface BoardMember {
 export default function BoardSection() {
   const boardMembers: BoardMember[] = [
     {
-      name: 'Betinho',
+      name: 'Roberto Felipe',
       image:
         'https://instagram.ffln2-3.fna.fbcdn.net/v/t51.2885-19/466388904_1130369191793989_5712887965303634885_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.ffln2-3.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2QGTZCyD2C7v2tuhpiGcSvHhBJH4cuSUDiw_LzA1MdUnflkY7bk2QABr9Fb_TNtdIQS-TGI38o_L0Icm1tBfyRTr&_nc_ohc=OXGbcUPRl-cQ7kNvwEmdixH&_nc_gid=rTB9mlE-BAq03uqS-S5ygg&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfKwuQ5Ujde8m11e86pSNLvxapnmWbSK1lP4t4n9bMFLPA&oe=68318E8C&_nc_sid=7a9f4b',
     },
