@@ -63,13 +63,11 @@ export default function BoardSection() {
               key={member.name}
               className="flex flex-col items-center p-6 rounded-lg border bg-card text-card-foreground shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="mb-4 p-1 rounded-full bg-shield/20 overflow-hidden">
-                <Image
+              <div className="mb-4 p-1 rounded-full bg-shield/20 overflow-hidden flex items-center justify-center">
+                <Image      
                   src={member.image}
                   alt={member.name}
-                  width={100}
-                  height={100}
-                  className="rounded-full object-cover w-20 h-20 md:w-32 md:h-32 lg: transition-transform transform hover:scale-105"
+                  className="rounded-full object-cover w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40  transition-transform transform hover:scale-105 overflow-hidden object-[center_top]"
                 />
               </div>
               <h3 className="text-xl font-bold">{member.name}</h3>
