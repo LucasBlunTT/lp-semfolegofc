@@ -38,13 +38,13 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 A página inicial apresenta o logo do clube, uma mensagem de boas-vindas e links para as seções principais do site.
 
 ### Sobre o Clube
-![Sobre o Clube](https://via.placeholder.com/800x400?text=Imagem+de+Exemplo)
+![image](https://github.com/user-attachments/assets/da2676e8-0159-425a-aadc-9c942470be82)
 
 ### Diretoria
-![Seção Diretoria](https://via.placeholder.com/800x400?text=Imagem+de+Exemplo)
+![image](https://github.com/user-attachments/assets/6b0d0cde-9879-47dd-b18c-89665f4e7156)
 
 ### Elenco
-![Seção Elenco](https://via.placeholder.com/800x400?text=Imagem+de+Exemplo)
+![image](https://github.com/user-attachments/assets/9b797502-f558-495c-bbe4-0d0134affacd)
 
 ---
 
